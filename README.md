@@ -37,23 +37,14 @@ HTTP PUT:
 1. http://localhost:4000/produto/id
 ----
 
-1 - Abra o Eclipse
-2 - Clique em File > Import
-3 - Digite Maven na caixa de pesquisa em Selecione uma escrita, "Select an import source:"
-4 - Selecionar projetos Maven existentes "Existing Maven Projects"
-5 - Clique em Avançar "Next"
-6 - Clique em Navegar "Browse" e selecione a pasta que é a raiz do projeto Maven (que contém o arquivo pom.xml)
-7 - Clique em Avançar
-8 - Clique em Finish
-----
 
 == Para Rodar o Aplicativo
 
 ----
 
-1 - Você precisará informar os dados de acesso ao seu banco de dados MySQL (src/main/resources/dropwizardmysql.yml)
-2 - Na raiz da aplicação execute o comando: mvn clean install
-3 - Na raiz da aplicação execute o comando: java -jar target\dropwizard-mysql-rest-1.0.0.jar src/main/resources/dropwizardmysql.yml
+1. Você precisará informar os dados de acesso ao seu banco de dados MySQL (src/main/resources/dropwizardmysql.yml)
+2. Na raiz da aplicação execute o comando: mvn clean install
+3. Na raiz da aplicação execute o comando: java -jar target\dropwizard-mysql-rest-1.0.0.jar src/main/resources/dropwizardmysql.yml
 
 ----
 
