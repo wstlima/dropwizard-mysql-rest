@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+	<PRODUTO id="1" codbarras='87236587' nome='Cola Polar' descricao='cola escolar' quantidade='1' categoria='Material' />
+	<PRODUTO id="2" codbarras='87236587' nome='Tesoura' descricao='sem ponta' quantidade='1' categoria='Material' />
+</dataset>

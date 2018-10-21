@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+	<PRODUTO codbarras='87236587' nome='Caneta Bic' descricao='esferográfica' quantidade='1' categoria='Material' />
+	<PRODUTO codbarras='87236587' nome='Apontador' descricao='Personalizado' quantidade='1' categoria='Material' />
+	<PRODUTO codbarras='87236587' nome='Caderno 20 Matérias' descricao='Turma da Mônica' quantidade='1' categoria='Material' />
+	<PRODUTO codbarras='87236587' nome='Mochila' descricao='Jovens Titans' quantidade='1' categoria='Material' />	
+</dataset>
