@@ -1,4 +1,4 @@
-package com.well.dropwizardmysql;
+package teste;
 
 import java.io.FileInputStream;
 import java.sql.SQLException;
