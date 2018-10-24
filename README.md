@@ -3,18 +3,18 @@ tags: [rest]
 projects: [dropwizard-mysql]
 ---
 
-== DescriÁ„o
+## Descri√ß√£o
 
-Criar controle de estoque para atender a necessidade de uma pequena papelaria. Esse sistema dever· ter as seguintes funcionalidades: cadastrar produto, remover produto, atualizar produto, listar produtos, exibir detalhes de um produto. Os atributos necess·rios para cadastrar um produto s„o: cÛdigo de barras, nome, descriÁ„o, quantidade e categoria.
+Criar controle de estoque para atender a necessidade de uma pequena papelaria. Esse sistema dever√° ter as seguintes funcionalidades: cadastrar produto, remover produto, atualizar produto, listar produtos, exibir detalhes de um produto. Os atributos necess√°rios para cadastrar um produto s√£o: c√≥digo de barras, nome, descri√ß√£o, quantidade e categoria.
 
-O objetivo È apresentar os conhecimentos na construÁ„o de um back end, com boas pr·ticas e teste focado ao banco de dados com as seguintes pilhas tecnolÛgicas:
+O objetivo √© apresentar os conhecimentos na constru√ß√£o de um back end, com boas pr√°ticas e teste focado ao banco de dados com as seguintes pilhas tecnol√≥gicas:
 
 * Dropwizard
 * MySql
 * JUnit
 * DbUnit
 
-== Recursos
+## Recursos
 
 HTTP GET:
 
@@ -38,20 +38,20 @@ HTTP PUT:
 ----
 
 
-== Para Rodar o Aplicativo
+## Para Rodar o Aplicativo
 
 ----
 
-1. VocÍ precisar· informar os dados de acesso ao seu banco de dados MySQL (src/main/resources/dropwizardmysql.yml)
-2. Na raiz da aplicaÁ„o execute o comando: mvn clean install
-3. Na raiz da aplicaÁ„o execute o comando: java -jar target\dropwizard-mysql-rest-1.0.0.jar src/main/resources/dropwizardmysql.yml
+1. Voc√™ precisar√° informar os dados de acesso ao seu banco de dados MySQL (src/main/resources/dropwizardmysql.yml)
+2. Na raiz da aplica√ß√£o execute o comando: mvn clean install
+3. Na raiz da aplica√ß√£o execute o comando: java -jar target\dropwizard-mysql-rest-1.0.0.jar src/main/resources/dropwizardmysql.yml
 
 ----
 
-== Para Testar
+## Para Testar
 
 ----
 
-VocÍ precisar· informar os dados de acesso ao seu banco de dados MySQL (src/test/java/DbUnit.java)
+Voc√™ precisar√° informar os dados de acesso ao seu banco de dados MySQL (src/test/java/DbUnit.java)
 
 ----
